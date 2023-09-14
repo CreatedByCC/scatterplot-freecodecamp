@@ -1,0 +1,42 @@
+* {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 500;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  padding: 2rem;
+}
+
+h1,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+circle {
+  opacity: 0.8;
+  stroke: black;
+}
+
+.legend-label {
+  fill: black;
+}
+
+#tooltip {
+  position: absolute;
+  pointer-events: none;
+  background-color: lightblue;
+  font-size: 0.7rem;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+text {
+  font-size: 0.6rem;
+}
